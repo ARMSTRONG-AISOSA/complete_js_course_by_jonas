@@ -1,5 +1,6 @@
 
 // ======= 007 Hello World!
+// ======= 010 Values and Variables
 
 // console.log("test");
 
@@ -31,6 +32,7 @@
 
 // WHAT IS JAVASCRIPT
 // JavaScript is a versatile, high-level programming language primarily used for creating interactive and dynamic content on the web.
+// High level - Object Oriented  - Multiparadigm
 
 // Key Features of JavaScript
 
@@ -67,3 +69,43 @@
 // ES6 (ECMAScript 2015): Introduced major enhancements like classes, modules, arrow functions, template literals, promises, and more. This version greatly improved JavaScript’s capabilities and readability.
 
 // Subsequent Versions (ES7, ES8, etc.): Continued to add new features and improvements, such as async/await, new array methods, and more.
+
+
+// ======= 010 Values and Variables
+// Value: a piece of data
+// ex. 'Ben'
+
+// Variable: store value
+// ex. firstName
+
+let firstName = 'Ben';
+let luckyNumber = 4;
+
+console.log(firstName);
+console.log(luckyNumber);
+console.log(firstName+ ' '+luckyNumber);
+console.log('My name is '+firstName+'  and my lucky number is '+luckyNumber);
+
+// Variables Naming Rules
+
+// Allowed: underscore, dollar sign, letters and numbers
+// Do not start with an uppercase letter.
+// Uppercase is used for OOP
+// Reserved js Keyword such as new and functions are not to be used
+// Use full uppper case for constants that will never change like PI
+
+// let new = 67;
+// console.log(new);
+
+let $new = 67;
+console.log($new);
+
+let PI = 3.1415;
+console.log(PI);
+
+// Assignment
+let continent = 'Africa';
+let country = 'Nigeria';
+let population = '220';
+
+console.log('My country '+country+' is on the continent of '+continent+' with a population of '+population+' million people.')
