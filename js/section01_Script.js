@@ -2,17 +2,17 @@
 // ======= 007 Hello World!
 // ======= 010 Values and Variables
 
-// console.log("test");
+console.log("test");
 
-// let js = "boring";
+let js = "boring";
 
-// if (js === "boring") {
-//     alert("This is not true");
-// }
+if (js === "boring") {
+    alert("This is not true");
+}
 
-// let calc = 3+7;
+let calc = 3+7;
 
-// console.log(calc);
+console.log(calc);
 
 
 
@@ -78,13 +78,13 @@
 // Variable: store value
 // ex. firstName
 
-// let firstName = 'Ben';
-// let luckyNumber = 4;
+let firstName = 'Ben';
+let luckyNumber = 4;
 
-// console.log(firstName);
-// console.log(luckyNumber);
-// console.log(firstName+ ' '+luckyNumber);
-// console.log('My name is '+firstName+'  and my lucky number is '+luckyNumber);
+console.log(firstName);
+console.log(luckyNumber);
+console.log(firstName+ ' '+luckyNumber);
+console.log('My name is '+firstName+'  and my lucky number is '+luckyNumber);
 
 // Variables Naming Rules
 
@@ -97,81 +97,81 @@
 // let new = 67;
 // console.log(new);
 
-// let $new = 67;
-// console.log($new);
+let $new = 67;
+console.log($new);
 
-// let PI = 3.1415;
-// console.log(PI);
+let PI = 3.1415;
+console.log(PI);
 
-// Assignment
-// let continent = 'Africa';
-// let country = 'Nigeria';
-// let population = '220';
+Assignment
+let continent = 'Africa';
+let country = 'Nigeria';
+let population = '220';
 
-// console.log('My country '+country+' is on the continent of '+continent+' with a population of '+population+' million people.')
+console.log('My country '+country+' is on the continent of '+continent+' with a population of '+population+' million people.')
 
 
 // ======== 026 The Switch Statement
 // An alt. to "if else statement" for comparing 0ne value to multiple different options
 
-// const weekDay = 'thursday';
+const weekDay = 'thursday';
 
-// switch (weekDay) {
-//     case 'monday':
-//         console.log('Plan course structure');
-//         console.log('Go to coding meetup');
-//         break;
-//     case 'tuesday':
-//         console.log('Prepare theory videos');
-//         break;
-//     case 'wednesday':
-//     case 'thursday':
-//         console.log('Write code examples');
-//         break;
-//     case 'friday':
-//         console.log('Record videos');
-//         break;
-//     case 'saturday':
-//     case 'sunday':
-//         console.log('Enjoy the weekend :D');
-//         break;
-//     default:
-//         console.log('Not a valid weekday!');
-// }
+switch (weekDay) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log('Prepare theory videos');
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend :D');
+        break;
+    default:
+        console.log('Not a valid weekday!');
+}
 
-// if (weekDay === "monday") {
-//     console.log('Plan course structure');
-//     console.log('Go to coding meetup');
-// } else if (weekDay === "tuesday") {
-//     console.log('Prepare theory videos');
-// } else if (weekDay === "wednesday" || weekDay === "thursday") {
-//     console.log('Write code examples');
-// } else if (weekDay === "friday") {
-//     console.log('Record videos');
-// } else if (weekDay === "saturday" || weekDay === "sunday") {
-//     console.log('Enjoy the weekend :D');
-// } else {
-//     console.log('Not a valid weekday!');
-// }
+if (weekDay === "monday") {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (weekDay === "tuesday") {
+    console.log('Prepare theory videos');
+} else if (weekDay === "wednesday" || weekDay === "thursday") {
+    console.log('Write code examples');
+} else if (weekDay === "friday") {
+    console.log('Record videos');
+} else if (weekDay === "saturday" || weekDay === "sunday") {
+    console.log('Enjoy the weekend :D');
+} else {
+    console.log('Not a valid weekday!');
+}
 
 
 // ======== 028 Ternary Operator
-// age = 16;
-// age = 18;
-// age = 21;
-// const voter = age >= 18 ? console.log('Old enough to vote 👍') : console.log('Too young to vote 👎');
-// const drinker = age >= 21 ? console.log('Old enough to drink 🍺') : console.log('Too young to drink 🚫');
+age = 16;
+age = 18;
+age = 21;
+const voter = age >= 18 ? console.log('Old enough to vote 👍') : console.log('Too young to vote 👎');
+const drinker = age >= 21 ? console.log('Old enough to drink 🍺') : console.log('Too young to drink 🚫');
 
-// const drinker1 = age >= 21 ? 'This Person is old enough to drink 🍺' : 'This Person is too young to drink 🚫';
+const drinker1 = age >= 21 ? 'This Person is old enough to drink 🍺' : 'This Person is too young to drink 🚫';
 
-// const voter1 = age >= 18 ? 'This Person is old enough to vote 👍' : 'This Person is too young to vote 👎';
+const voter1 = age >= 18 ? 'This Person is old enough to vote 👍' : 'This Person is too young to vote 👎';
 
-// console.log(drinker1);
-// console.log(voter1);
+console.log(drinker1);
+console.log(voter1);
 
-// const driver1 = age >= 18 ? 'old enough' : 'too young';
+const driver1 = age >= 18 ? 'old enough' : 'too young';
 
-// console.log(`This Person is ${driver1} to drive.`);
+console.log(`This Person is ${driver1} to drive.`);
 
 
 
@@ -181,11 +181,11 @@
 
 // let bill = 275;
 // let bill = 10;
-// let bill = 430;
-// const billFirst = bill; 
-// const tip = bill > 50 && bill < 300 ? bill*0.15 : bill*0.2;
+let bill = 430;
+const billFirst = bill; 
+const tip = bill > 50 && bill < 300 ? bill*0.15 : bill*0.2;
 
-// const totalBill = billFirst + tip;
+const totalBill = billFirst + tip;
 
-// console.log(`The bill is ${billFirst}, the tip is ${tip} and the total value is ${totalBill}.`);
+console.log(`The bill is ${billFirst}, the tip is ${tip} and the total value is ${totalBill}.`);
 
